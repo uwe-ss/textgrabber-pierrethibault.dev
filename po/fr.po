@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: textgrabber\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-29 01:52-0400\n"
+"POT-Creation-Date: 2025-10-08 11:27-0400\n"
 "PO-Revision-Date: 2025-06-19 21:00-0400\n"
 "Last-Translator: Pierre Thibault <pierre.thibault@pierrethibault.dev>\n"
 "Language-Team: French <fr@li.org>\n"
@@ -12,18 +12,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: extension.js:61
-msgid "Not running on X11 or Wayland."
-msgstr "Non sur X11 ou Wayland"
-
-#: extension.js:72
 msgid "Missing dependencies: "
 msgstr "Dépendances manquantes : "
 
-#: extension.js:75
+#: extension.js:64
 msgid "Ensure to install Tesseract with your language(s)."
 msgstr "Assurez-vous d'installer Tesseract avec vos langues."
 
-#: extension.js:78 prefs.js:73
+#: extension.js:67 prefs.js:73
 msgid "No known Tesseract languages installed."
 msgstr "Aucune langue Tesseract connue installée."
 
@@ -364,14 +360,14 @@ msgstr "fr"
 msgid "New accelerator…"
 msgstr "Nouvel accélérateur…"
 
-#: screenocr.js:143
+#: screenocr.js:138
 msgid "Text copied to the clipboard!"
 msgstr "Texte copié dans le presse-papiers!"
 
-#: screenocr.js:143
+#: screenocr.js:138
 msgid "OCR failed."
 msgstr "L'OCR a échoué."
 
-#: screenocr.js:148
+#: screenocr.js:143
 msgid "An error occurred during the OCR process."
 msgstr "Une erreur s'est produite durant le processus OCR."

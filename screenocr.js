@@ -1,5 +1,5 @@
 import Gio from 'gi://Gio';
-import GLib from 'gi://GLib';
+import St from 'gi://St';
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 import { gettext as _ } from 'resource:///org/gnome/shell/extensions/extension.js';
 
@@ -99,12 +99,7 @@ export class ScreenOCR {
 
       const text = new TextDecoder().decode(contents).trim();
 
-      const sessionType = GLib.getenv('XDG_SESSION_TYPE');
-      if (sessionType === 'wayland') {
-        await this._runCommandAsync('wl-copy', ['-n'], text);
-      } else {
-        await this._runCommandAsync('xsel', ['-bi'], text);
-      }
+      St.Clipboard.get_default().set_text(St.ClipboardType.CLIPBOARD, text)
     } catch (e) {
       throw new Error(`Copy to clipboard failed: ${e.message}`);
     }

@@ -49,16 +49,6 @@ export default class extends Extension {
       'tesseract',
       'gnome-screenshot',
     ];
-    switch (GLib.getenv('XDG_SESSION_TYPE')) {
-      case "wayland":
-        dependencies.push("wl-copy");
-        break;
-      case "x11":
-        dependencies.push("xsel");
-        break;
-      default:
-        errorMessages.push(_("Not running on X11 or Wayland."));
-    }
     const missingDependencies = [];
     for (const command of dependencies) {
       if (!GLib.find_program_in_path(command)) {

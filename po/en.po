@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: textgrabber\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-29 01:52-0400\n"
+"POT-Creation-Date: 2025-10-08 11:27-0400\n"
 "PO-Revision-Date: 2025-06-19 21:00-0400\n"
 "Last-Translator: Pierre Thibault <pierre.thibault@pierrethibault.dev>\n"
 "Language-Team: English <en@li.org>\n"
@@ -12,18 +12,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: extension.js:61
-msgid "Not running on X11 or Wayland."
-msgstr "Not running on X11 or Wayland."
-
-#: extension.js:72
 msgid "Missing dependencies: "
 msgstr "Missing dependencies: "
 
-#: extension.js:75
+#: extension.js:64
 msgid "Ensure to install Tesseract with your language(s)."
 msgstr "Ensure to install Tesseract with your language(s)."
 
-#: extension.js:78 prefs.js:73
+#: extension.js:67 prefs.js:73
 msgid "No known Tesseract languages installed."
 msgstr "No known Tesseract languages installed."
 
@@ -364,14 +360,14 @@ msgstr "en"
 msgid "New accelerator…"
 msgstr "New accelerator…"
 
-#: screenocr.js:143
+#: screenocr.js:138
 msgid "Text copied to the clipboard!"
 msgstr "Text copied to the clipboard!"
 
-#: screenocr.js:143
+#: screenocr.js:138
 msgid "OCR failed."
 msgstr "OCR failed."
 
-#: screenocr.js:148
+#: screenocr.js:143
 msgid "An error occurred during the OCR process."
 msgstr "An error occurred during the OCR process."
