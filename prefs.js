@@ -229,7 +229,7 @@ class ShortcutSettingWidget extends Adw.ActionRow {
 
     this.emit('changed', this.shortcut);
     this._settings.set_strv(this._key, [this.shortcut]);
-    this._editor.destroy();
+    this._editor?.destroy();
   }
 
   // Functions from https://gitlab.gnome.org/GNOME/gnome-control-center/-/blob/main/panels/keyboard/keyboard-shortcuts.c

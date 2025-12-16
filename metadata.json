@@ -5,12 +5,13 @@
   "shell-version": [
     "46",
     "47",
-    "48"
+    "48",
+    "49"
   ],
   "url": "https://github.com/Pierre-Thibault/textgrabber-pierrethibault.dev",
   "settings-schema": "org.gnome.shell.extensions.textgrabber",
   "gettext-domain": "textgrabber",
-  "version-name": "1.1.0",
+  "version-name": "1.2.0",
   "donations": {
     "buymeacoffee": "pierrethibault"
   }

@@ -7,3 +7,5 @@ Today, 2025-06-30, I begin the release history. There were two releases before, 
     - Buymeacoffee is now a user handle
     - Using St.Clipboard API instead of command line utilities
 	- Mentioning that the extension access the clipboard in the description
+
+2025-12-15: 1.2.0: Important update for Gnome 49. No longer using Gnome-Screenshot. Small fix.

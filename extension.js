@@ -47,7 +47,6 @@ export default class extends Extension {
     // Check dependencies
     const dependencies = [
       'tesseract',
-      'gnome-screenshot',
     ];
     const missingDependencies = [];
     for (const command of dependencies) {
@@ -84,7 +83,7 @@ export default class extends Extension {
       });
 
       this._button.add_child(icon);
-      this._button.connect('button-press-event', () => {
+      this._button.connect('button-release-event', () => {
         this._grabText();
       });
 
