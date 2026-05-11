@@ -1,22 +1,16 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: textgrabber\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-08 11:27-0400\n"
-"PO-Revision-Date: 2026-02-24 19:48+0100\n"
+"PO-Revision-Date: 2026-05-11 17:19+0200\n"
 "Last-Translator: Uwe Senkler\n"
 "Language-Team: \n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #: extension.js:61
 msgid "Missing dependencies: "
@@ -96,7 +90,7 @@ msgstr "Chinesisch (vereinfacht)"
 
 #: languages.js:120
 msgid "Chinese (Traditional)"
-msgstr "Chinesisch (tradionell)"
+msgstr "Chinesisch (traditionell)"
 
 #: languages.js:121
 msgid "Croatian"
@@ -360,7 +354,7 @@ msgstr "Zum Aktivieren der Texterkennung Tesseract-Sprachdaten installieren."
 
 #: prefs.js:111
 msgid "currentLanguage"
-msgstr ""
+msgstr "de"
 
 #: prefs.js:154 prefs.js:182
 msgid "New accelerator…"
